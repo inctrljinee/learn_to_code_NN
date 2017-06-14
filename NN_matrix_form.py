@@ -1,14 +1,24 @@
 ##############################################################
-### 
+### Neural Network Demo for learning purpose
+### Github: tango4j
+### tango4j@gmail.com
+ 
 
+### In this example, you are building a very simple Neural Network with python.
+### [CAVEAT!!] Don't take this seriously. 
+### This code is for learning and understandng of Neural Network for beginners.
+### For more instensive calculation, 
+### Openframeworks for DNN such as Tensorflow, Pytorch are a better fit.
 
 import numpy as np
 import time
 import matplotlib.pyplot as plt
 import math
 
+# Check the ETA for this routine.
 start_time = time.time()
 
+# Set a set of parameters for neural network you are building.
 batch_size = 17
 input_dim = 4
 hidden1_dim = 5
